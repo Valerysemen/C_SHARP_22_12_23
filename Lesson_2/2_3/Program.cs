@@ -3,3 +3,15 @@
 // числа и выводить, является ли второе число кратным первому.
 // Если второе число некратно первому, то программа выводит
 // остаток от деления.
+
+int n = int.Parse(Console.ReadLine()!);
+int m = int.Parse(Console.ReadLine()!);
+
+if (n % m == 0)
+{
+    Console.WriteLine("Кратно");
+}
+else
+{
+    Console.WriteLine("Не кратно " + n % m);
+}
